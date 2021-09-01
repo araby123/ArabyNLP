@@ -7,10 +7,10 @@ import altair as alt
 import tweepy
 
 
-consumer_key="rFUGAhVrfB6IWYRLTBLFPNuz7"
-consumer_secret="3SZDYpvbCCnRYAmZn3p2pKcrE6zksKzcsv2Sb1dSVkAFWeWA0x"
-access_token="887772648876498945-dC9hqXTQ4pE3BpkDEIRTbdQBvhM3myu"
-access_token_secret="K13c2K1wAItqroOnE8FlguhlEdZ2hmMTqhXtSjK4L0wW1"
+consumer_key="bu8tXvWSaqb7eIgDfk8LZnMGN"
+consumer_secret="pPvShQtUeE0tal1umxHLPgqvgMvh46A5czzBkSJZrnwCIdSdyc"
+access_token="229966227-qhnq20yyFB2KdI9uCfhcNmpKYGRHa0jspt5uNeQC"
+access_token_secret="vJGYrriqBwKvRlNxnXnrFDzE88J0VHxge4J0BJoJdE8x5"
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
@@ -23,9 +23,9 @@ def predict_emotions(docx):
 def get_prediction_proba(docx):
 	results = pipe_lr.predict_proba([docx])
 	return results
-st.title("                   Artificial Intelligence Model (NLP) ")
+st.title("                   Machine Learning Model training with (NLP) ")
 st.write("""### Twitter Customers Behavior Analysis in Mentions of Companies Twitter Account""")
-st.write("""###                 Developed by Marwan Zamkah""")
+st.write("""###                 Developed by Mohammed Araby""")
 st.write("""###             """)
 st.write("""###             """)
 st.video('https://www.youtube.com/watch?v=-waNOxpboZQ')

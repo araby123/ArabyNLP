@@ -7,10 +7,10 @@ import altair as alt
 import tweepy
 
 
-consumer_key="rFUGAhVrfB6IWYRLTBLFPNuz7"
-consumer_secret="3SZDYpvbCCnRYAmZn3p2pKcrE6zksKzcsv2Sb1dSVkAFWeWA0x"
-access_token="887772648876498945-dC9hqXTQ4pE3BpkDEIRTbdQBvhM3myu"
-access_token_secret="K13c2K1wAItqroOnE8FlguhlEdZ2hmMTqhXtSjK4L0wW1"
+consumer_key="cL6kvxiax6hwir3WXAP1gBcyX"
+consumer_secret="tIBlFqMvQwhFmMOtdYvoMeO6ZAxlptMolOB7ykgOwqtsCTEdCc"
+access_token="229966227-q1ldyaSfO1TyaHcreCNptjjdG7xigdg3OejYZZBn"
+access_token_secret="Jo7CTzFL77zIFlBknNXN4ElAhT8jfJApibHYwood5jp5G"
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)

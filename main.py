@@ -28,7 +28,7 @@ st.write("""### Twitter Customers Behavior Analysis in Mentions of Companies Twi
 st.write("""###                 Developed by Mohammed Araby""")
 st.write("""###             """)
 st.write("""###             """)
-st.video('https://www.youtube.com/watch?v=-waNOxpboZQ')
+#st.video('https://www.youtube.com/watch?v=-waNOxpboZQ')
 st.write("""###             """)
 value = st.text_input("Enter The Twitter Account @")
 st.write("""###             """)

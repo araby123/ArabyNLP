@@ -23,7 +23,7 @@ def predict_emotions(docx):
 def get_prediction_proba(docx):
 	results = pipe_lr.predict_proba([docx])
 	return results
-st.title("                   Artificial Intelligence Model (NLP) ")
+st.title("                   Machine learning Model training for (NLP) ")
 st.write("""### Twitter Customers Behavior Analysis in Mentions of Companies Twitter Account""")
 st.write("""###                 Developed by Mohammed Araby""")
 st.write("""###             """)
